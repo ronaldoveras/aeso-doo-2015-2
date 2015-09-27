@@ -44,13 +44,13 @@ public class ExecutaExercicio {
 
 	private static void preencherPessoa(Scanner scannerPessoa, Pessoa p) {
 		System.out.println("Digite o nome da pessoa: ");
-		p.nome = scannerPessoa.nextLine();
+		p.setNome(scannerPessoa.nextLine());
 		System.out.println("Digite a idade da pessoa: ");
-		p.idade = scannerPessoa.nextInt();
+		p.setIdade(scannerPessoa.nextInt());
 		System.out.println("Digite a altura da pessoa: ");
-		p.altura = scannerPessoa.nextDouble();
+		p.setAltura(scannerPessoa.nextDouble());
 		System.out.println("Digite a peso da pessoa: ");
-		p.peso = scannerPessoa.nextDouble();
+		p.setPeso(scannerPessoa.nextDouble());
 	}
 
 	private static void preencherCarro(Scanner scannerPessoa, Carro c) {

@@ -24,4 +24,14 @@ public class Livro {
 	public int getQtd() {
 		return qtd;
 	}
+	
+//	@Override
+//	public boolean equals(Object obj) {
+//		boolean isIgual = false;
+//		Livro outro = (Livro) obj;
+//		if(this.titulo.equals(outro.titulo)){
+//			isIgual = true;
+//		}
+//		return isIgual;
+//	}
 }

@@ -2,6 +2,8 @@ package aesoPoo;
 
 import java.util.Scanner;
 
+import aula09Heranca.Pessoa;
+
 public class ExecutaExercicio {
 
 	public static void main(String[] args) {

@@ -1,5 +1,7 @@
 package aesoPoo;
 
+import aula09Heranca.Pessoa;
+
 public class ExecutaExercicio2 {
 
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package aesoPoo;
+package aula09Heranca;
 
 public class Pessoa {
 
@@ -90,5 +90,9 @@ public class Pessoa {
 		}
 		return retorno; 
 	}
-	
+
+	@Override
+	public String toString() {
+		return this.getNome() + " " + this.getAltura();
+	}
 }

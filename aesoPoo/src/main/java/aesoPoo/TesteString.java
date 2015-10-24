@@ -21,6 +21,7 @@ public class TesteString {
 			}
 			String email = "ronaldo@aeso.br";
 			System.out.println(email.substring(email.indexOf("@"), email.length()));
+	
 	}
 
 }

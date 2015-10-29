@@ -7,7 +7,6 @@ public class TesteReferencia {
 		Livro l2 = new Livro("Dom Casmurro", 234);
 		Livro l3 = new Livro("Dom Casmurro", 234);
 		
-		
 		if (l2 == l1) {
 		    System.out.println("Linha 1");
 		}

@@ -26,13 +26,13 @@ public class Livro {
 	}
 	
 	public double obterDesconto(){
-		return getPrecoLivro() * (10/100);
+		return getPrecoLivro() * (0.1);
 	}
 	
 	@Override
 	public String toString() {
-		return "Livro FÃ­sico: " + getNomeLivro() + ", Autor: " + getNomeAutor() + ", PreÃ§o: " 
-				+ getPrecoLivro() + ", Desconto: " + obterDesconto(); 
+		return "Livro Físico: " + getNomeLivro() + ", Autor: " + getNomeAutor() + ", Preço: " 
+				+ getPrecoLivro(); 
 	}
 
 }

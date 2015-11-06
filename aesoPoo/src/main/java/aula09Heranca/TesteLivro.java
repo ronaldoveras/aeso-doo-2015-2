@@ -19,7 +19,6 @@ public class TesteLivro {
 		
 		System.out.println(ebook);
 		System.out.println("\r Desconto: " + ebook.obterDesconto());
-		
 	}
 
 }

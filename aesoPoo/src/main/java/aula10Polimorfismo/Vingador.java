@@ -1,9 +1,7 @@
 package aula10Polimorfismo;
 
-public class Vingador {
+public abstract class Vingador {
 	
-	public void imprimir(){
-		System.out.println("Eu sou um vingador!");
-	}
+	public abstract void imprimir();
 
 }

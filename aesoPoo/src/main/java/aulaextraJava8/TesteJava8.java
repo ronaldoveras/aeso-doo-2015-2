@@ -11,7 +11,7 @@ public class TesteJava8 {
 
 	public static void main(String[] args) {
 		
-		//Interfaces com implementaÃ§Ãµes de mÃ©todos
+		//Interfaces com implementações de métodos
 		ICliente cliente = new Cliente();
 		cliente.imprimirNomePadrao();
 		
@@ -22,11 +22,11 @@ public class TesteJava8 {
 		 
 		Period periodo = Period.between(homemNoEspaco, homemNaLua);
 		 
-		System.out.printf("%s anos, %s mÃªs e %s dias \n",
+		System.out.printf("%s anos, %s mês e %s dias \n",
 		  periodo.getYears() , periodo.getMonths(), periodo.getDays());
-		  //8 anos, 1 mÃªs e 13 dias
+		  //8 anos, 1 mês e 13 dias
 		
-		//Streams
+		//Lambda
 		List<Integer> lista = Arrays.asList(1,7,3,4,9,2); //Classes de tipos inteiros
 		lista.sort((e1, e2) -> e1.compareTo(e2));
 		
